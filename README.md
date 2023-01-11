@@ -19,5 +19,5 @@ Examples are included at the end of the script (commented out) which will set up
 The prime function in this script is *decode*, into which can be passed all the known settings alongside the encrypted message, and it will run a number of checks to determine missing or altered settings or objects before returning the decrypted message. For example, code 2 (commented out at the end) was missing the three initial letter settings for each of the three rotors. The function will run through all possible rotor combinations to determine which ones return a message which corresponds to a given clue.
 The five code examples at the end become more complicated, with the last containing a hypothetically altered rotor which contains unknown wiring. The code uses brute force to determine the new rotor dictionary.
 
-# lesson learned
+## lessons learned
 This was a very enjoyable project that fits well with my strong interest in history. The object oriented programming methodology lends itself really well to this type of system. While translating some of the very complex operations of the real machine, particularly the number of edge cases and exceptions that exist within it, I was able to successfully decrypt all the messages and recieved a Disctinction grade as a result. 
