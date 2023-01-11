@@ -456,8 +456,8 @@ class Machine:
                 out = out[:] + self.plugboard.encode(pass8)
         return out
 
-
-if __name__ == "__main__":
+# uncomment below to run the example settings and enigma decrytion
+if __name__ == "__main__":    
     #rotor = Rotor('I')
     #rotorII = Rotor('II')
     #rotorIII = Rotor('III')
