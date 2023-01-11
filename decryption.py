@@ -1,5 +1,6 @@
 from itertools import combinations
 
+# import all engima machine classes and functions from enigma.py
 from enigma import *
 
 # function to swap strings between two lists based on location within the list
