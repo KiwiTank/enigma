@@ -1,5 +1,5 @@
 # Enigma simulation project
-This is a project I did for my MSc in AI to create a working emulator of the German Enigma coding machine from WWII. Once the machine is created and set up, it then decodes some encryted text, including text encoded using missing or altered plug and rotor settings for which the system can determine the missing settings and apply them to the decription.
+This is a project I did for my MSc in AI to create a working emulator of the German Enigma coding machine from WWII. Once the machine is created and set up, it then decodes some encryted text, including text encoded using missing or altered plug and rotor settings for which the system can determine the missing settings and apply them to the decryption.
 
 ## code
 This project consists of two python files. Enigma.py contains all the classes and functions for the machine itself, which can take plug and rotor settings and return decryted text that was encryted using those settings. 
